@@ -1,0 +1,45 @@
+.timeLineContainer {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.historyItem {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  align-self: flex-start;
+}
+
+.historyDate {
+  align-self: center;
+  margin: 0em 1.5em;
+  width: 105px;
+}
+
+.historyDate p {
+  text-align: end;
+}
+
+.historyInfo {
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 1em;
+  border-left: 2px solid #dcdcdc;
+  width: 365px;
+  padding: 0.5em 1em;
+}
+
+/* timeline Dot */
+.historyDate::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  left: 152px;
+  bottom: 30px;
+  border: 3px solid #dcdcdc;
+  background-color: white;
+}

@@ -1,0 +1,85 @@
+.heading {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.headingTitle {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.personalInfo {
+  padding: 1px;
+}
+
+.boldPersonalInfo {
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.section > p {
+  text-align: center;
+}
+
+.section > h2 {
+  text-align: center;
+}
+
+.homeContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  max-width: 900px;
+  padding-top: 1em;
+  width: fit-content;
+}
+
+.mainCVContainer {
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+.sideContainer {
+  flex-direction: column;
+  display: flex;
+  min-width: 300px;
+  box-shadow: 8px 10px 14px rgb(0 0 0 / 10%);
+}
+
+.headingMobile {
+  display: none;
+}
+
+.profilePicture{
+  object-fit: contain;
+}
+
+.titleHistory{
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .homeContainer {
+    flex-direction: column;
+  }
+  .sideContainer {
+    min-width: 300px;
+    padding: 0 1em;
+  }
+  .heading {
+    display: none;
+  }
+  .headingMobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
