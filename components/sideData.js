@@ -54,7 +54,6 @@ const SideData = () => {
         <p>ReactJS</p>
         <p>NextJS</p>
         <p>Typescript</p>
-        <p>MongoDB</p>
         <p>Figma</p>
         <p>ARcore</p>
         <p>Agile and SCRUM methodologies</p>
