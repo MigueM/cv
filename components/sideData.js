@@ -31,12 +31,12 @@ const SideData = () => {
         <p>
           <b className={utilStyles.boldPersonalInfo}>Phone</b>
           <br />
-          (+54) 341 6475901
+          <a href="tel:+543416475901" className={utilStyles.linkedInfo}>(+54) 341 6475901</a>
         </p>
         <p>
           <b className={utilStyles.boldPersonalInfo}>Email</b>
           <br />
-          miguem1994@gmail.com
+          <a href="miguem1994@gmail.com" className={utilStyles.linkedInfo}>miguem1994@gmail.com</a>
         </p>
       </section>
 
@@ -48,14 +48,14 @@ const SideData = () => {
 
       <section className={utilStyles.section}>
         <h2 className={utilStyles.titleInfo}>Skills</h2>
-        <p>HTML / CSS</p>
-        <p>Git</p>
-        <p>JavaScript</p>
         <p>ReactJS</p>
         <p>NextJS</p>
+        <p>JavaScript</p>
         <p>Typescript</p>
         <p>Figma</p>
         <p>ARcore</p>
+        <p>HTML / CSS</p>
+        <p>Git</p>
         <p>Agile and SCRUM methodologies</p>
       </section>
     </div>

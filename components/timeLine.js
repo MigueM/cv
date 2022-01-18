@@ -1,8 +1,14 @@
+import { useState } from "react";
 import styles from "./timeLine.module.css";
 
 const HistoryItem = ({ history }) => {
+  const [expand, setExpand] = useState(false);
+
   return (
-    <div className={styles.historyItem}>
+    <div
+      className={expand ? styles.historyItemExpanded : styles.historyItem}
+      onClick={() => history.description && setExpand(!expand)}
+    >
       <div className={styles.historyDate}>
         <p>{history.date}</p>
       </div>
@@ -12,6 +18,17 @@ const HistoryItem = ({ history }) => {
         </span>
         <br />
         <span className={styles.historySubtitle}>{history.subtitle}</span>
+
+        {history.description && (
+          <div className={styles.historyDescription}>
+            <p>
+              {history.description}
+              <br />
+              <b>Tech Used: </b>
+              <em> {history.tech}</em>
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
