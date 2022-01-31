@@ -1,25 +1,24 @@
 import Image from "next/image";
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "./sideData.module.css";
 
-const SideData = () => {
-  return (
+const SideData = ({ interests, intereses, setLang, lang }) => {
+  /* English */
+  return lang == "en" ? (
     <div className={utilStyles.sideContainer}>
-      <Image
-        priority
-        src="/images/pp.jpeg"
-        className={utilStyles.profilePicture}
-        height={300}
-        width={300}
-        alt={"Miguel Molina"}
-      />
-
-      <section className={utilStyles.headingMobile}>
+      <div className={utilStyles.containerProfilePicture}>
+        <Image
+          priority
+          src="/images/pp.jpeg"
+          className={utilStyles.profilePicture}
+          height={300}
+          width={300}
+          alt={"Miguel Molina"}
+        />
+      </div>
+      <section className={utilStyles.heading}>
         <h1 className={utilStyles.headingTitle}>Miguel Molina</h1>
         <p>Web Developer · Front end</p>
-        <p>
-          Developer and technology enthusiast. Always seeking to improve new
-          technics, practices and skills.
-        </p>
+        <p className={utilStyles.interestDescription}>{interests}</p>
       </section>
 
       <section className={utilStyles.section}>
@@ -31,19 +30,86 @@ const SideData = () => {
         <p>
           <b className={utilStyles.boldPersonalInfo}>Phone</b>
           <br />
-          <a href="tel:+543416475901" className={utilStyles.linkedInfo}>(+54) 341 6475901</a>
+          <a href="tel:+543416475901" className={utilStyles.linkedInfo}>
+            (+54) 341 6475901
+          </a>
         </p>
         <p>
           <b className={utilStyles.boldPersonalInfo}>Email</b>
           <br />
-          <a href="miguem1994@gmail.com" className={utilStyles.linkedInfo}>miguem1994@gmail.com</a>
+          <a href="miguem1994@gmail.com" className={utilStyles.linkedInfo}>
+            miguem1994@gmail.com
+          </a>
         </p>
       </section>
 
       <section className={utilStyles.section}>
         <h2 className={utilStyles.titleInfo}>Languages</h2>
-        <p>English</p>
-        <p>Spanish</p>
+        <p onClick={() => setLang("en")}>English</p>
+        <p onClick={() => setLang("es")}>Spanish</p>
+      </section>
+
+      <section className={utilStyles.section}>
+        <h2 className={utilStyles.titleInfo}>Skills</h2>
+        <p>ReactJS</p>
+        <p>NextJS</p>
+        <p>JavaScript</p>
+        <p>Typescript</p>
+        <p>Figma</p>
+        <p>ARcore</p>
+        <p>HTML / CSS</p>
+        <p>Git</p>
+        <p>Agile and SCRUM methodologies</p>
+      </section>
+    </div>
+  ) : (
+    /* Español */
+    <div className={utilStyles.sideContainer}>
+      <div className={utilStyles.containerProfilePicture}>
+        <Image
+          priority
+          src="/images/pp.jpeg"
+          className={utilStyles.profilePicture}
+          height={300}
+          width={300}
+          alt={"Miguel Molina"}
+        />
+      </div>
+
+      <section className={utilStyles.heading}>
+        <h1 className={utilStyles.headingTitle}>Miguel Molina</h1>
+        <p>Web Developer · Front end</p>
+
+        <p style={{ whiteSpace: "pre-wrap" }}>{intereses}</p>
+      </section>
+
+      <section className={utilStyles.section}>
+        <p>
+          <b className={utilStyles.boldPersonalInfo}>Locación</b>
+          <br />
+          Rosario - Santa Fe, Argentina
+        </p>
+        <p>
+          <b className={utilStyles.boldPersonalInfo}>Telefono</b>
+
+          <br />
+          <a href="tel:+543416475901" className={utilStyles.linkedInfo}>
+            (+54) 341 6475901
+          </a>
+        </p>
+        <p>
+          <b className={utilStyles.boldPersonalInfo}>Email</b>
+          <br />
+          <a href="miguem1994@gmail.com" className={utilStyles.linkedInfo}>
+            miguem1994@gmail.com
+          </a>
+        </p>
+      </section>
+
+      <section className={utilStyles.section}>
+        <h2 className={utilStyles.titleInfo}>Lenguajes</h2>
+        <p onClick={() => setLang("en")}>Ingles</p>
+        <p onClick={() => setLang("es")}>Español</p>
       </section>
 
       <section className={utilStyles.section}>

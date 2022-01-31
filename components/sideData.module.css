@@ -1,0 +1,61 @@
+
+.sideContainer {
+  flex-direction: column;
+  display: flex;
+  min-width: 300px;
+  box-shadow: 8px 10px 14px rgb(0 0 0 / 10%);
+}
+
+.heading {
+  display: none;
+}
+
+.profilePicture {
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.containerProfilePicture {
+  border-radius: 10px !important;
+  align-self: center;
+}
+
+.titleHistory {
+  text-align: left !important;
+}
+
+.langButton {
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.linkedInfo {
+  text-decoration: none;
+  color: #000000;
+}
+
+.interestDescription{
+  white-space: pre-wrap;
+  text-align: justify; 
+  max-width: 45ch;
+  margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .homeContainer {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .sideContainer {
+    min-width: 300px;
+    padding: 0 1em;
+    box-shadow: -8px 16px 14px rgb(0 0 0 / 10%);
+    text-align: center;
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+  }
+}

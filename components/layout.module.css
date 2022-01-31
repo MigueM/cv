@@ -1,7 +1,10 @@
 .container {
-  max-width: max-content;
+  /* max-width: max-content;
   margin: 0 auto;
-  flex: 1;
+  flex: 1; */
+  width: 100vw;
+  display: flex;
+  /* justify-content: center; */
 }
 
 .header {
