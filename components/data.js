@@ -47,7 +47,7 @@ export const experience = [
     subtitle: "Psychedelic seeds",
     description:
       "My latest job, actually under development the platform will contain an eCommerce, wiki and next gen interactions to get a better experience and feedback from users.",
-    tech: "React, NextJS, MongoDB, ThreeJS, CI-CD, Figma and Blender.",
+    tech: "React, NextJS, MongoDB, ThreeJS, Figma and Blender.",
   },
   {
     date: "2020",
@@ -163,7 +163,7 @@ export const experiencia = [
     subtitle: "Psychedelic seeds",
     description:
       "Mi último trabajo, actualmente en desarrollo. La plataforma incluye un eCommerce, wikis e interacciones de próxima generación para obtener una mejor experiencia y feedback de los usuarios.",
-    tech: "React, NextJS, MongoDB, ThreeJS, CI-CD, Figma y Blender.",
+    tech: "React, NextJS, MongoDB, ThreeJS, Figma y Blender.",
   },
   {
     date: "2020",

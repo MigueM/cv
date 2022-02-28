@@ -8,11 +8,11 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
       <div className={utilStyles.containerProfilePicture}>
         <Image
           priority
-          src="/images/pp.jpeg"
+          src="/images/profilePic.jpeg"
           className={utilStyles.profilePicture}
           height={300}
           width={300}
-          alt={"Miguel Molina"}
+          alt={"Miguel Molina profile pic"}
         />
       </div>
       <section className={utilStyles.heading}>
@@ -37,7 +37,7 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>
           <b className={utilStyles.boldPersonalInfo}>Email</b>
           <br />
-          <a href="miguem1994@gmail.com" className={utilStyles.linkedInfo}>
+          <a href="mailto:miguem1994@gmail.com" className={utilStyles.linkedInfo}>
             miguem1994@gmail.com
           </a>
         </p>
@@ -68,11 +68,11 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
       <div className={utilStyles.containerProfilePicture}>
         <Image
           priority
-          src="/images/pp.jpeg"
+          src="/images/profilePic.jpeg"
           className={utilStyles.profilePicture}
           height={300}
           width={300}
-          alt={"Miguel Molina"}
+          alt={"Miguel Molina profile pic"}
         />
       </div>
 
@@ -122,7 +122,7 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>ARcore</p>
         <p>HTML / CSS</p>
         <p>Git</p>
-        <p>Agile and SCRUM methodologies</p>
+        <p>Agile y SCRUM methodologies</p>
       </section>
     </div>
   );
