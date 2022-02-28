@@ -52,7 +52,7 @@
   .sideContainer {
     min-width: 300px;
     padding: 0 1em;
-    box-shadow: -8px 16px 14px rgb(0 0 0 / 10%);
+    box-shadow: 0px 7px 4px -2px rgb(0 0 0 / 7%);
     text-align: center;
   }
   .heading {
