@@ -162,7 +162,7 @@ export const experiencia = [
     title: "Fullstack ecommerce",
     subtitle: "Psychedelic seeds",
     description:
-      "Mi último trabajo, actualmente en desarrollo. La plataforma incluye un eCommerce, wikis e interacciones de próxima generación para obtener una mejor experiencia y feedback de los usuarios.",
+      "Mi último trabajo, actualmente en desarrollo. La plataforma incluye un eCommerce, wikis e interacciones de ultima generación para obtener una mejor experiencia y feedback de los usuarios.",
     tech: "React, NextJS, MongoDB, ThreeJS, Figma y Blender.",
   },
   {
