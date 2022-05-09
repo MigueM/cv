@@ -25,7 +25,7 @@ const LangButton = ({ setLang, lang }) => {
 };
 
 export default function Home() {
-  const [lang, setLang] = useState("en");
+  const [lang, setLang] = useState("es");
   return (
     <Layout>
       <LangButton lang={lang} setLang={setLang} />
@@ -52,6 +52,7 @@ export default function Home() {
             {lang == "en" ? (
               <>
                 <h2 className={utilStyles.titleHistory}>Experience</h2>
+                <span className={utilStyles.moreDetails}>Click for more details</span>
                 <TimeLine history={experience} />
                 <h2 className={utilStyles.titleHistory}>Education</h2>
                 <TimeLine history={education} />
@@ -59,6 +60,7 @@ export default function Home() {
             ) : (
               <>
                 <h2 className={utilStyles.titleHistory}>Experiencia</h2>
+                <span className={utilStyles.moreDetails}>Click para más detalles</span>
                 <TimeLine history={experiencia} />
                 <h2 className={utilStyles.titleHistory}>Educación</h2>
                 <TimeLine history={educacion} />
