@@ -41,16 +41,16 @@ export const education = [
 ];
 
 export const experience = [
-  {
+  /*{
     date: "2021 - Today",
     title: "Fullstack ecommerce",
     subtitle: "Psychedelic seeds",
     description:
       "My latest job, actually under development the platform will contain an eCommerce, wiki and next gen interactions to get a better experience and feedback from users.",
     tech: "React, NextJS, MongoDB, ThreeJS, Figma and Blender.",
-  },
+  },*/
   {
-    date: "2020",
+    date: "2020 - Today",
     title: "Backend and mailing functionality",
     subtitle: "Vanzini propiedades",
     description:
@@ -157,16 +157,16 @@ export const educacion = [
 ];
 
 export const experiencia = [
-  {
+  /*{
     date: "2021 - Hoy",
     title: "Fullstack ecommerce",
     subtitle: "Psychedelic seeds",
     description:
       "Mi último trabajo, actualmente en desarrollo. La plataforma incluye un eCommerce, wikis e interacciones de ultima generación para obtener una mejor experiencia y feedback de los usuarios.",
     tech: "React, NextJS, MongoDB, ThreeJS, Figma y Blender.",
-  },
+  },*/
   {
-    date: "2020",
+    date: "2020 - Hoy",
     title: "Backend y funcionalidad de Mailing",
     subtitle: "Vanzini propiedades",
     description:
