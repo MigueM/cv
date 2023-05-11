@@ -7,11 +7,13 @@ export const education = [
     date: "2021",
     title: "UX UI design",
     subtitle: "Coder House",
+    description: "aquí aprendí a diseñar interfases enfocadas a la experiencia de los usuarios. Realice un proyecto de principio a fin simulando una startup, en la cual debía realizar desde el reaserch inicial hasta el diseño final de la aplicación."
   },
   {
     date: "2020",
     title: "Advanced Javascript",
     subtitle: "Educacion IT",
+    description:"aprendi modelos orientado a eventos, validación de datos, realizar pedidos asincrónicos, SPA y REST, herramientas de AJAX avanzado, uso de promesas, realizar APIs y paradigma de prototipos."
   },
   {
     date: "2019",
@@ -116,7 +118,7 @@ export const experience = [
 
 /* Español */
 
-export const intereses = `Desarrollador y entusiasta de la tecnología. Siempre buscando mejorar nuevas técnicas, prácticas y habilidades.\nTambién amante de los viajes, la gastronomía y los gatos.`;
+export const intereses = `Como desarrollador web, tengo un fuerte interés en explorar nuevas tecnologías y mejorar continuamente mis habilidades para crear aplicaciones web de alta calidad. Me siento cómodo trabajando en entornos de desarrollo web tanto en frontend como en backend, y siempre estoy dispuesto a enfrentar nuevos desafíos.`;
 
 export const educacion = [
   {
