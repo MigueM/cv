@@ -24,7 +24,7 @@ const HistoryItem = ({ history }) => {
             <p>
               {history.description}
               <br />
-              <b>Tech Used: </b>
+              <b>Tech/Skills </b>
               <em> {history.tech}</em>
             </p>
           </div>
