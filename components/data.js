@@ -48,20 +48,13 @@ export const education = [
   {
     date: "2006 - Today",
     title: "Autodidact",
-    subtitle: "internet",
+    subtitle: "Internet",
     description:"Technical service, microsoft suite, photoshop, illustrator, networks, HTML/CSS, so on..."
   }
 ];
 
 export const experience = [
-  /*{
-    date: "2021 - Today",
-    title: "Fullstack ecommerce",
-    subtitle: "Psychedelic seeds",
-    description:
-      "My latest job, actually under development the platform will contain an eCommerce, wiki and next gen interactions to get a better experience and feedback from users.",
-    tech: "React, NextJS, MongoDB, ThreeJS, Figma and Blender.",
-  },*/
+
   {
     date: "2020 - Today",
     title: "Backend and mailing functionality",
@@ -177,7 +170,7 @@ export const educacion = [
   {
     date: "2006 - Today",
     title: "Autodidacta",
-    subtitle: "internet",
+    subtitle: "Internet",
     description:"Servicio tecnico informatico, microsoft suite, photoshop, illustrator, redes, HTML/CSS, y mas..."
   }
 ];
@@ -249,7 +242,7 @@ export const experiencia = [
   },
   {
     date: "2009",
-    title: "Technical service",
+    title: "Servicio tecnico",
     subtitle: "First job",
     description: `Como un joven nerd de la computadora, usé mis talentos para instalar programas, formatear, mantener sistemas y construir redes simples. Nunca imaginé que de vez en cuando seguiría haciendo esto para mis amigos y familiares.`,
     tech: "Linux y Windows.",

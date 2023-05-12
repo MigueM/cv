@@ -80,7 +80,7 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <h1 className={utilStyles.headingTitle}>Miguel Molina</h1>
         <p>Web Developer · Front end</p>
 
-        <p style={{ whiteSpace: "pre-wrap" }}>{intereses}</p>
+        <p className={utilStyles.interestDescription}>{intereses}</p>
       </section>
 
       <section className={utilStyles.section}>

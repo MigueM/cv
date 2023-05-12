@@ -15,11 +15,11 @@ import { useState } from "react";
 const LangButton = ({ setLang, lang }) => {
   return lang == "en" ? (
     <button onClick={() => setLang("es")} className={utilStyles.langButton}>
-      🇪🇸
+      🇪🇸 · Español
     </button>
   ) : (
     <button onClick={() => setLang("en")} className={utilStyles.langButton}>
-      🇬🇧
+      🇬🇧 · Ingles
     </button>
   );
 };
@@ -55,6 +55,7 @@ export default function Home() {
                 <span className={utilStyles.moreDetails}>Click for more details</span>
                 <TimeLine history={experience} />
                 <h2 className={utilStyles.titleHistory}>Education</h2>
+                <span className={utilStyles.moreDetails}>Click for more details</span>
                 <TimeLine history={education} />
               </>
             ) : (
@@ -63,6 +64,7 @@ export default function Home() {
                 <span className={utilStyles.moreDetails}>Click para más detalles</span>
                 <TimeLine history={experiencia} />
                 <h2 className={utilStyles.titleHistory}>Educación</h2>
+                <span className={utilStyles.moreDetails}>Click para más detalles</span>
                 <TimeLine history={educacion} />
               </>
             )}

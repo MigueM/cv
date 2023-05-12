@@ -82,6 +82,10 @@
   white-space: "pre";
 }
 
+.historySubtitle{
+  font-size: .8em;
+}
+
 .historyItemExpanded .historyDescription {
   transform: translateY(0%);
   opacity: 0.9;
