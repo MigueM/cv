@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Este es mi CV, espero pronto me ayude a conseguir laburo.
