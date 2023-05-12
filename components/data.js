@@ -48,6 +48,7 @@ export const education = [
   {
     date: "2006 - Today",
     title: "Autodidact",
+    subtitle: "internet",
     description:"Technical service, microsoft suite, photoshop, illustrator, networks, HTML/CSS, so on..."
   }
 ];
@@ -176,6 +177,7 @@ export const educacion = [
   {
     date: "2006 - Today",
     title: "Autodidacta",
+    subtitle: "internet",
     description:"Servicio tecnico informatico, microsoft suite, photoshop, illustrator, redes, HTML/CSS, y mas..."
   }
 ];
