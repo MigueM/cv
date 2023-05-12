@@ -1,45 +1,55 @@
 /* English */
 
-export const interests = `Developer and technology enthusiast. Always seeking to improve new technics, practices and skills.\nAlso a travel, gastronomy and cat lover.`;
+export const interests = `As a web developer, I have a strong interest in exploring new technologies and continuously improving my skills to create high-quality web applications. I am comfortable working in both frontend and backend web development environments and always ready to take on new challenges.`;
 
 export const education = [
   {
     date: "2021",
     title: "UX UI design",
     subtitle: "Coder House",
-    description: "aquí aprendí a diseñar interfases enfocadas a la experiencia de los usuarios. Realice un proyecto de principio a fin simulando una startup, en la cual debía realizar desde el reaserch inicial hasta el diseño final de la aplicación."
+    description: "I learned how to design user-focused interfaces here. I completed a project from start to finish simulating a startup, in which I had to carry out initial research and design the application in base of the results of those studies."
   },
   {
     date: "2020",
     title: "Advanced Javascript",
     subtitle: "Educacion IT",
-    description:"aprendi modelos orientado a eventos, validación de datos, realizar pedidos asincrónicos, SPA y REST, herramientas de AJAX avanzado, uso de promesas, realizar APIs y paradigma de prototipos."
+    description:"I've learned event-driven architecture, data validation, asynchronous ordering, SPA and REST, advanced AJAX tools, use of promises, API development and prototype-based programming."
   },
   {
     date: "2019",
     title: "International Bartender",
     subtitle: "Liceo Gastronomico",
+    description: "Gain an understanding of bar management, building a menu of drinks, all classic cocktails their methods and history"
   },
   {
     date: "2014 - Today",
     title: "Computer systems analyst",
     subtitle: "IPS",
+    description: "Technical institute affiliated with the National University of Rosario, where I learned about algorithmic processes, discrete mathematics. procedural, object-oriented and functional programming languages, computer architecture, operating systems, database theory, multimedia systems, and software development methodologies."
   },
   {
     date: "2011 - 2014",
     title: "Systems Engineering (unfinished)",
     subtitle: "UTN (Universidad Tecnologica Nacional)",
+    description: "Acquire knowledge in mathematics, physics, chemistry, data architecture, computer architecture, and system administration and management"
   },
   {
     date: "2011",
     title: "C1 Advanced English",
     subtitle: "CES (Center of English Studies Dublin-Ireland)",
+    description: "I've traveled abroad to study english and learned to write and speak fluently"
   },
   {
     date: "2006 - 2011",
     title: "Natural Science bachelor",
     subtitle: "Jean Piaget",
+    description: "I completed my high school education, where I acquired skills in areas such as mathematics, sciences, history, and literature, among others."
   },
+  {
+    date: "2006 - Today",
+    title: "Autodidact",
+    description:"Technical service, microsoft suite, photoshop, illustrator, networks, HTML/CSS, so on..."
+  }
 ];
 
 export const experience = [
@@ -125,37 +135,49 @@ export const educacion = [
     date: "2021",
     title: "Diseño UX UI",
     subtitle: "Coder House",
+    description: "Aquí aprendí a diseñar interfases enfocadas a la experiencia de los usuarios. Realice un proyecto de principio a fin simulando una startup, en la cual debía realizar desde el reaserch inicial hasta el diseño final de la aplicación."
   },
   {
     date: "2020",
     title: "Javascript avanzado",
     subtitle: "Educacion IT",
+    description: "Aprendi modelos orientado a eventos, validación de datos, realizar pedidos asincrónicos, SPA y REST, herramientas de AJAX avanzado, uso de promesas, realizar APIs y paradigma de prototipos."
   },
   {
     date: "2019",
     title: "Bartender Internacional",
     subtitle: "Liceo Gastronomico",
+    description: "Aprendi a gestionar una barra, armar una carta y todos los tragos clasicos sus metodos e historia."
   },
   {
     date: "2014 - Hoy",
     title: "Analista en Sistemas",
     subtitle: "IPS",
+    description: "instituto tecnico ligado a la Universidad Nacional de Rosario, aprendi algoritmia, matemática discreta, lenguajes procedurales, orientados a objetos y funcionales, arquitectura de las computadoras, sistemas operativos, teoría de las bases de datos, sistemas multimediales y metodologías para el desarrollo de software."
   },
   {
     date: "2011 - 2014",
     title: "Ingenieria en sistemas (unfinished)",
     subtitle: "UTN (Universidad Tecnologica Nacional)",
+    description: "Aprendi matematica, fisica, quimica, arquitectura de datos y del computador, asi como gestion y administracion de sistemas."
   },
   {
     date: "2011",
     title: "C1 Advanced English",
     subtitle: "CES (Center of English Studies Dublin-Ireland)",
+    description: "Viajé al extranjero a estudiar ingles, aprendi a escribir y hablar fluidamente."
   },
   {
     date: "2006 - 2011",
     title: "Bachiller en Ciencias Naturales",
     subtitle: "Jean Piaget",
+    description: "Completé mi educación secundaria, donde adquirí habilidades en áreas como matemáticas, ciencias, historia y literatura, entre otras."
   },
+  {
+    date: "2006 - Today",
+    title: "Autodidacta",
+    description:"Servicio tecnico informatico, microsoft suite, photoshop, illustrator, redes, HTML/CSS, y mas..."
+  }
 ];
 
 export const experiencia = [
