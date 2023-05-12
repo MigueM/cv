@@ -25,10 +25,8 @@ const HistoryItem = ({ history }) => {
               {history.description}
                 
                   <br />
-          {history.tech && (
                   <b>Tech/Skills </b>
                   <em> {history.tech} </em>
-                )}
             </p>
           </div>
         )}
