@@ -68,7 +68,7 @@ export const experience = [
     subtitle: "Vanzini propiedades",
     description:
       "Here I helped to make a mailing functionality to list properties on sell and fixed minor frontend issues.",
-    tech: "React, Axios, Figma and specific HTML and CSS for mailing compatibility.",
+    tech: "Javascript, React, Axios and Figma.",
   },
   {
     date: "2019",
@@ -197,7 +197,7 @@ export const experiencia = [
     subtitle: "Vanzini propiedades",
     description:
       "Aquí ayudé a crear una funcionalidad de correo para enumerar propiedades en venta y solucioné problemas menores de interfaz.",
-    tech: "React, Axios, Figma y HTML/CSS especifico para compatibilidad en diferentes clientes de email.",
+    tech: "Javascript, React, Axios y Figma",
   },
   {
     date: "2019",
