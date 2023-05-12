@@ -23,11 +23,9 @@ const HistoryItem = ({ history }) => {
           <div className={styles.historyDescription}>
             <p>
               {history.description}
-                history.tech && (
                   <br />
                   <b>Tech/Skills </b>
                   <em> {history.tech} </em>
-                )
             </p>
           </div>
         )}
