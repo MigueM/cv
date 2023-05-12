@@ -72,7 +72,7 @@ export const experience = [
   },
   {
     date: "2019",
-    title: "AR demo",
+    title: "Argumented Reality demo",
     subtitle: "Penca",
     description:
       "As a hobby I like to make argumented reality experiences, a marketing company contacted me to make an app to demostrate diferent interactive models over targets and surfaces.",
@@ -201,7 +201,7 @@ export const experiencia = [
   },
   {
     date: "2019",
-    title: "Demo RA",
+    title: "Demo Realidad Aumentada",
     subtitle: "Penca",
     description:
       "Como hobby me gusta crear experiencias de realidad aumentada, una empresa de marketing me contactó para hacer una aplicación para demostrar diferentes modelos interactivos sobre marcadores y superficies.",
