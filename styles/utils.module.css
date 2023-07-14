@@ -67,13 +67,6 @@
   text-align: left !important;
 }
 
-.langButton {
-  border: none;
-  font-size: 1em;
-  cursor: pointer;
-  padding: 0.5em;
-}
-
 .linkedInfo {
   text-decoration: none;
   color: #000000;
@@ -89,6 +82,11 @@
   z-index: 1;
   right: 23%;
   width: max-content;
+  background-color: #222;
+  color: white;
+  border: none;
+  font-size: 1em;
+  padding: 0.5em;
 }
 
 .moreDetails{
