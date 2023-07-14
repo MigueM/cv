@@ -25,7 +25,7 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>
           <b className={utilStyles.boldPersonalInfo}>Location</b>
           <br />
-          Rosario - Santa Fe, Argentina
+          Neuquen - Neuquen, Argentina
         </p>
         <p>
           <b className={utilStyles.boldPersonalInfo}>Phone</b>
