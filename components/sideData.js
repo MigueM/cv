@@ -108,8 +108,8 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
 
       <section className={utilStyles.section}>
         <h2 className={utilStyles.titleInfo}>Lenguajes</h2>
-        <p onClick={() => setLang("en")}>Ingles</p>
-        <p onClick={() => setLang("es")}>Español</p>
+        <p style={{cursor: "pointer"}} onClick={() => setLang("en")}>Ingles</p>
+        <p style={{cursor: "pointer"}} onClick={() => setLang("es")}>Español</p>
       </section>
 
       <section className={utilStyles.section}>
