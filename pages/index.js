@@ -15,11 +15,11 @@ import { useState } from "react";
 const LangButton = ({ setLang, lang }) => {
   return lang == "en" ? (
     <button onClick={() => setLang("es")} className={utilStyles.langButton}>
-      🇪🇸 · Español
+      Español
     </button>
   ) : (
     <button onClick={() => setLang("en")} className={utilStyles.langButton}>
-      🇬🇧 · Ingles
+      Ingles
     </button>
   );
 };
