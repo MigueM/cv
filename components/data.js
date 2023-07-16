@@ -185,7 +185,7 @@ export const educacion = [
 export const experiencia = [
   {
     date: "2019 - Hoy",
-    title: "diseño 3D e Impresion",
+    title: "Diseño 3D e Impresion",
     subtitle: "0800.3D",
     description:
       "Hace unos años que diseño e imprimo piezas y repuestos como hobby, de manera mas prolifica durante la pandemia.",
