@@ -60,6 +60,8 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>HTML / CSS</p>
         <p>Git</p>
         <p>Agile and SCRUM methodologies</p>
+        <p>Blender</p>
+        <p>Fusion360</p>
       </section>
     </div>
   ) : (

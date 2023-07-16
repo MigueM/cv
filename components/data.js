@@ -54,9 +54,16 @@ export const education = [
 ];
 
 export const experience = [
-
   {
-    date: "2020 - Today",
+    date: "2019 - Today",
+    title: "3D design and printing",
+    subtitle: "0800.3D",
+    description:
+      "I've been printing and designing custom pieces as a hobby for a few years, in a more prolific way during the pandemic.",
+    tech: "Blender, Fusion360, Illustrator, UltiMaker Cura.",
+  },
+  {
+    date: "2020 - 2021",
     title: "Backend and mailing functionality",
     subtitle: "Vanzini propiedades",
     description:
@@ -176,16 +183,16 @@ export const educacion = [
 ];
 
 export const experiencia = [
-  /*{
-    date: "2021 - Hoy",
-    title: "Fullstack ecommerce",
-    subtitle: "Psychedelic seeds",
-    description:
-      "Mi último trabajo, actualmente en desarrollo. La plataforma incluye un eCommerce, wikis e interacciones de ultima generación para obtener una mejor experiencia y feedback de los usuarios.",
-    tech: "React, NextJS, MongoDB, ThreeJS, Figma y Blender.",
-  },*/
   {
-    date: "2020 - Hoy",
+    date: "2019 - Hoy",
+    title: "diseño 3D e Impresion",
+    subtitle: "0800.3D",
+    description:
+      "Hace unos años que diseño e imprimo piezas y repuestos como hobby, de manera mas prolifica durante la pandemia.",
+    tech: "Blender, Fusion360, Illustrator, UltiMaker Cura.",
+  },
+  {
+    date: "2020 - 2021",
     title: "Backend y funcionalidad de Mailing",
     subtitle: "Vanzini propiedades",
     description:
