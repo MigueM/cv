@@ -44,6 +44,15 @@
   margin: auto;
 }
 
+.cvButton{
+  background-color: #FE258E;
+  cursor: pointer;
+  color: white;
+  padding: 0.25em 0.5em;
+  margin-left: .25em;
+  border-radius: 15px;
+ }
+
 @media only screen and (max-width: 900px) {
   .homeContainer {
     flex-direction: column;
