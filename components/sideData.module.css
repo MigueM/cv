@@ -43,6 +43,11 @@
   max-width: 45ch;
   margin: auto;
 }
+.socialLinksContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 .cvButton{
   background-color: #FE258E;

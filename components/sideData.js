@@ -42,6 +42,26 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
             miguem1994@gmail.com
           </a>
         </p>
+        <div className={styles.socialLinksContainer}>
+          <a href="https://github.com/MigueM" target="_blank">
+            <Image
+              priority
+              src="/images/github.svg"
+              height={24}
+              width={24}
+              alt={"github"}
+            />
+          </a>
+          <a href="www.linkedin.com/in/miguel-molina-7143b61b5" target="_blank">
+            <Image
+              priority
+              src="/images/linkedIn.svg"
+              height={24}
+              width={24}
+              alt={"linkedIn"}
+            />
+          </a>
+        </div>
       </section>
 
       <section className={styles.section}>
@@ -113,6 +133,26 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
             miguem1994@gmail.com
           </a>
         </p>
+        <div className={styles.socialLinksContainer}>
+          <a href="https://github.com/MigueM" target="_blank">
+            <Image
+              priority
+              src="/images/github.svg"
+              height={24}
+              width={24}
+              alt={"github"}
+            />
+          </a>
+          <a href="www.linkedin.com/in/miguel-molina-7143b61b5" target="_blank">
+            <Image
+              priority
+              src="/images/linkedIn.svg"
+              height={24}
+              width={24}
+              alt={"linkedIn"}
+            />
+          </a>
+        </div>
       </section>
 
       <section className={styles.section}>
@@ -136,6 +176,8 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>HTML / CSS</p>
         <p>Git</p>
         <p>Agile y SCRUM methodologies</p>
+        <p>Fusion360</p>
+        <p>Blender</p>
       </section>
     </div>
   );
