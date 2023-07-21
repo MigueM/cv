@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./sideData.module.css";
+import LangButton from "./langButton";
 
 const SideData = ({ interests, intereses, setLang, lang }) => {
 
@@ -19,6 +20,7 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
       <section className={styles.heading}>
         <h1 className={styles.headingTitle}>Miguel Molina</h1>
         <p>Web Developer · Front end</p>
+        <LangButton lang={lang} setLang={setLang} />
         <p className={styles.interestDescription}>{interests}</p>
       </section>
 
@@ -108,7 +110,7 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
       <section className={styles.heading}>
         <h1 className={styles.headingTitle}>Miguel Molina</h1>
         <p>Web Developer · Front end</p>
-
+        <LangButton lang={lang} setLang={setLang} />
         <p className={styles.interestDescription}>{intereses}</p>
       </section>
 

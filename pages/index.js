@@ -11,24 +11,13 @@ import {
   educacion,
 } from "../components/data";
 import { useState } from "react";
+import LangButton from "../components/langButton";
 
-const LangButton = ({ setLang, lang }) => {
-  return lang == "en" ? (
-    <button onClick={() => setLang("es")} className={utilStyles.langButton}>
-      Español
-    </button>
-  ) : (
-    <button onClick={() => setLang("en")} className={utilStyles.langButton}>
-      Ingles
-    </button>
-  );
-};
 
 export default function Home() {
   const [lang, setLang] = useState("es");
   return (
     <Layout>
-      <LangButton lang={lang} setLang={setLang} />
       <div className={utilStyles.homeContainer}>
         <SideData
           interests={interests}
@@ -41,6 +30,7 @@ export default function Home() {
           <section className={utilStyles.heading}>
             <h1 className={utilStyles.headingTitle}>Miguel Molina</h1>
             <p>Web Developer · Front end</p>
+            <LangButton lang={lang} setLang={setLang} />
             {lang == "en" ? (
               <p style={{ whiteSpace: "pre-wrap" }}>{interests}</p>
             ) : (

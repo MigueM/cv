@@ -73,12 +73,9 @@
 }
 
 .langButton {
-  position: absolute;
   background: none;
-  box-shadow: inset 0px 0px 4px 3px rgb(0 0 0 / 10%);
   border-radius: 15px;
   cursor: pointer;
-  top: 5%;
   z-index: 1;
   right: 23%;
   width: max-content;
@@ -109,7 +106,7 @@
     flex-direction: column;
   }
   .langButton {
-    top: 5px;
-    right: unset;
+    align-self: center;
+    margin: 1em 0;
   }
 }
