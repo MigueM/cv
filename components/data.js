@@ -129,7 +129,7 @@ export const experience = [
 
 /* Español */
 
-export const intereses = `Como desarrollador web, tengo un fuerte interés en explorar nuevas tecnologías y mejorar continuamente mis habilidades para crear aplicaciones web de alta calidad. Me siento cómodo trabajando en entornos de desarrollo web tanto en frontend como en backend, y siempre estoy dispuesto a enfrentar nuevos desafíos.`;
+export const intereses = `Como desarrollador web, tengo un fuerte interés en explorar nuevas tecnologías y mejorar continuamente mis habilidades para crear aplicaciones web de alta calidad. Me siento cómodo trabajando en entornos de desarrollo web tanto en frontend como en backend y siempre estoy dispuesto a enfrentar nuevos desafíos.`;
 
 export const educacion = [
   {
