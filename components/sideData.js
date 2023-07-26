@@ -86,7 +86,9 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>ARcore</p>
         <p>HTML / CSS</p>
         <p>Git</p>
+        <p>CI/CD</p>
         <p>Agile and SCRUM methodologies</p>
+        <p>Adobe Design Suite</p>
         <p>Blender</p>
         <p>Fusion360</p>
       </section>
@@ -177,7 +179,9 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>ARcore</p>
         <p>HTML / CSS</p>
         <p>Git</p>
+        <p>CI/CD</p>
         <p>Agile y SCRUM methodologies</p>
+        <p>Adobe Design Suite</p>
         <p>Fusion360</p>
         <p>Blender</p>
       </section>
