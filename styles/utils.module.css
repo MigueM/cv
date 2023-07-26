@@ -84,7 +84,13 @@
   border: none;
   font-size: 1em;
   padding: 0.5em;
+  filter: drop-shadow(5px 5px 2px #6a6a6a);
+  transition: 0.3s;
 }
+
+.langButton:hover{
+  filter: none;
+}  
 
 .moreDetails{
   font-size: .8em;
