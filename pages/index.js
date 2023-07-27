@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import SideData from "../components/sideData";
 import TimeLine from "../components/timeLine";
-import utilStyles from "../styles/utils.module.css";
+import Styles from "../styles/utils.module.css";
 import {
   experience,
   education,
@@ -18,7 +18,7 @@ export default function Home() {
   const [lang, setLang] = useState("es");
   return (
     <Layout>
-      <div className={utilStyles.homeContainer}>
+      <div className={Styles.homeContainer}>
         <SideData
           interests={interests}
           lang={lang}
@@ -26,9 +26,9 @@ export default function Home() {
           intereses={intereses}
         />
 
-        <div className={utilStyles.mainCVContainer}>
-          <section className={utilStyles.heading}>
-            <h1 className={utilStyles.headingTitle}>Miguel Molina</h1>
+        <div className={Styles.mainCVContainer}>
+          <section className={Styles.heading}>
+            <h1 className={Styles.headingTitle}>Miguel Molina</h1>
             <p>Web Developer · Front end</p>
             <LangButton lang={lang} setLang={setLang} />
             {lang == "en" ? (
@@ -38,23 +38,23 @@ export default function Home() {
             )}
           </section>
 
-          <section className={utilStyles.section}>
+          <section className={Styles.section}>
             {lang == "en" ? (
               <>
-                <h2 className={utilStyles.titleHistory}>Experience</h2>
-                <span className={utilStyles.moreDetails}>Click for more details</span>
+                <h2 className={Styles.titleHistory}>Experience</h2>
+                <span className={Styles.moreDetails}>Click for more details</span>
                 <TimeLine history={experience} />
-                <h2 className={utilStyles.titleHistory}>Education</h2>
-                <span className={utilStyles.moreDetails}>Click for more details</span>
+                <h2 className={Styles.titleHistory}>Education</h2>
+                <span className={Styles.moreDetails}>Click for more details</span>
                 <TimeLine history={education} />
               </>
             ) : (
               <>
-                <h2 className={utilStyles.titleHistory}>Experiencia</h2>
-                <span className={utilStyles.moreDetails}>Click para más detalles</span>
+                <h2 className={Styles.titleHistory}>Experiencia</h2>
+                <span className={Styles.moreDetails}>Click para más detalles</span>
                 <TimeLine history={experiencia} />
-                <h2 className={utilStyles.titleHistory}>Educación</h2>
-                <span className={utilStyles.moreDetails}>Click para más detalles</span>
+                <h2 className={Styles.titleHistory}>Educación</h2>
+                <span className={Styles.moreDetails}>Click para más detalles</span>
                 <TimeLine history={educacion} />
               </>
             )}

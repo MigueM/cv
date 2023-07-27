@@ -97,6 +97,19 @@
   display: flex;
   margin-left: 20%;
   color:#9c9c9c;
+  animation: beat 1s ease infinite;
+}
+
+@keyframes beat {
+  0%{
+    scale: 1;
+  }
+  50%{
+    scale: .98;
+  }
+  100%{
+    scale: 1;
+  }
 }
 
 @media only screen and (max-width: 900px) {
