@@ -8,15 +8,28 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
   return lang == "en" ? (
     <div className={styles.sideContainer}>
       <div className={styles.containerProfilePicture}>
-        <Image
-          priority
-          src="/images/profilePic.jpeg"
-          className={styles.profilePicture}
-          height={300}
-          width={300}
-          alt={"Miguel Molina profile pic"}
-        />
+        <div className={styles.frontPicture}>
+          <Image
+            priority
+            src="/images/profilePic.jpeg"
+            className={styles.profilePicture}
+            height={300}
+            width={300}
+            alt={"Miguel Molina profile pic"}
+          />
+        </div>
+        <div className={styles.backPicture}>
+          <Image
+            priority
+            src="/images/profileBack.png"
+            className={styles.secondProfilePicture}
+            height={300}
+            width={300}
+            alt={"Miguel Molina cyberpunk profile pic"}
+          />
+        </div>
       </div>
+
       <section className={styles.heading}>
         <h1 className={styles.headingTitle}>Miguel Molina</h1>
         <p>Web Developer · Front end</p>
@@ -99,14 +112,26 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
     /* Español */
     <div className={styles.sideContainer}>
       <div className={styles.containerProfilePicture}>
-        <Image
-          priority
-          src="/images/profilePic.jpeg"
-          className={styles.profilePicture}
-          height={300}
-          width={300}
-          alt={"Miguel Molina profile pic"}
-        />
+        <div className={styles.frontPicture}>
+            <Image
+              priority
+              src="/images/profilePic.jpeg"
+              className={styles.profilePicture}
+              height={300}
+              width={300}
+              alt={"Miguel Molina profile pic"}
+            />
+        </div>
+        <div className={styles.backPicture}>
+          <Image
+            priority
+            src="/images/profileBack.png"
+            className={styles.secondProfilePicture}
+            height={300}
+            width={300}
+            alt={"Miguel Molina new profile pic"}
+          />
+        </div>
       </div>
 
       <section className={styles.heading}>
@@ -138,7 +163,7 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
           </a>
         </p>
         <div className={styles.socialLinksContainer}>
-          <a href="https://github.com/MigueM" target="_blank">
+          <a href="https://github.com/MigueM" target="_blank" className={styles.socialButton}>
             <Image
               priority
               src="/images/github.svg"
@@ -147,7 +172,7 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
               alt={"github"}
             />
           </a>
-          <a href="www.linkedin.com/in/miguel-molina-7143b61b5" target="_blank">
+          <a href="www.linkedin.com/in/miguel-molina-7143b61b5" target="_blank" className={styles.socialButton}>
             <Image
               priority
               src="/images/linkedIn.svg"
