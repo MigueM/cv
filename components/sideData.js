@@ -3,7 +3,6 @@ import styles from "./sideData.module.css";
 import LangButton from "./langButton";
 
 const SideData = ({ interests, intereses, setLang, lang }) => {
-
   /* English */
   return lang == "en" ? (
     <div className={styles.sideContainer}>
@@ -81,8 +80,12 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
 
       <section className={styles.section}>
         <h2 className={styles.titleInfo}>Languages</h2>
-        <p style={{cursor: "pointer"}} onClick={() => setLang("en")}>English</p>
-        <p style={{cursor: "pointer"}} onClick={() => setLang("es")}>Spanish</p>
+        <p style={{ cursor: "pointer" }} onClick={() => setLang("en")}>
+          English
+        </p>
+        <p style={{ cursor: "pointer" }} onClick={() => setLang("es")}>
+          Spanish
+        </p>
       </section>
 
       <section className={styles.section}>
@@ -91,9 +94,14 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>NextJS</p>
         <p>JavaScript</p>
         <p>Typescript</p>
-        <p>Figma 
-          <a className={styles.cvButton} href='https://www.figma.com/file/22dODX0ZQ8vu1JZhtCQM5y/CV?type=design&node-id=576%3A149&mode=design&t=G0jlLjheQZ8cwVvm-1' target="_blank">
-          CV
+        <p>
+          Figma
+          <a
+            className={styles.cvButton}
+            href="https://www.figma.com/file/22dODX0ZQ8vu1JZhtCQM5y/CV?type=design&node-id=576%3A149&mode=design&t=G0jlLjheQZ8cwVvm-1"
+            target="_blank"
+          >
+            CV
           </a>
         </p>
         <p>ARcore</p>
@@ -106,21 +114,19 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>Fusion360</p>
       </section>
     </div>
-
   ) : (
-
     /* Español */
     <div className={styles.sideContainer}>
       <div className={styles.containerProfilePicture}>
         <div className={styles.frontPicture}>
-            <Image
-              priority
-              src="/images/profilePic.jpeg"
-              className={styles.profilePicture}
-              height={300}
-              width={300}
-              alt={"Miguel Molina profile pic"}
-            />
+          <Image
+            priority
+            src="/images/profilePic.jpeg"
+            className={styles.profilePicture}
+            height={300}
+            width={300}
+            alt={"Miguel Molina profile pic"}
+          />
         </div>
         <div className={styles.backPicture}>
           <Image
@@ -163,7 +169,11 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
           </a>
         </p>
         <div className={styles.socialLinksContainer}>
-          <a href="https://github.com/MigueM" target="_blank" className={styles.socialButton}>
+          <a
+            href="https://github.com/MigueM"
+            target="_blank"
+            className={styles.socialButton}
+          >
             <Image
               priority
               src="/images/github.svg"
@@ -172,7 +182,11 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
               alt={"github"}
             />
           </a>
-          <a href="www.linkedin.com/in/miguel-molina-7143b61b5" target="_blank" className={styles.socialButton}>
+          <a
+            href="www.linkedin.com/in/miguel-molina-7143b61b5"
+            target="_blank"
+            className={styles.socialButton}
+          >
             <Image
               priority
               src="/images/linkedIn.svg"
@@ -186,8 +200,12 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
 
       <section className={styles.section}>
         <h2 className={styles.titleInfo}>Lenguajes</h2>
-        <p style={{cursor: "pointer"}} onClick={() => setLang("en")}>Ingles</p>
-        <p style={{cursor: "pointer"}} onClick={() => setLang("es")}>Español</p>
+        <p style={{ cursor: "pointer" }} onClick={() => setLang("en")}>
+          Ingles
+        </p>
+        <p style={{ cursor: "pointer" }} onClick={() => setLang("es")}>
+          Español
+        </p>
       </section>
 
       <section className={styles.section}>
@@ -196,8 +214,13 @@ const SideData = ({ interests, intereses, setLang, lang }) => {
         <p>NextJS</p>
         <p>JavaScript</p>
         <p>Typescript</p>
-        <p>Figma 
-          <a className={styles.cvButton} href='https://www.figma.com/file/22dODX0ZQ8vu1JZhtCQM5y/CV?type=design&node-id=576%3A149&mode=design&t=G0jlLjheQZ8cwVvm-1' target="_blank">
+        <p>
+          Figma
+          <a
+            className={styles.cvButton}
+            href="https://www.figma.com/file/22dODX0ZQ8vu1JZhtCQM5y/CV?type=design&node-id=576%3A149&mode=design&t=G0jlLjheQZ8cwVvm-1"
+            target="_blank"
+          >
             CV
           </a>
         </p>

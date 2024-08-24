@@ -15,7 +15,6 @@
   max-height: 5em;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-
 }
 
 .historyDate {
@@ -82,12 +81,12 @@
   white-space: "pre";
 }
 
-.historySubtitle{
-  font-size: .8em;
+.historySubtitle {
+  font-size: 0.8em;
 }
 
 .historyItemExpanded .historyDescription {
   transform: translateY(0%);
   opacity: 0.9;
-  white-space: "pre"
+  white-space: "pre";
 }

@@ -23,9 +23,9 @@ const HistoryItem = ({ history }) => {
           <div className={styles.historyDescription}>
             <p>
               {history.description}
-                  <br />
-                  {history.tech && ( <b>Tech/Skills </b> ) }
-                  <em> {history.tech} </em>
+              <br />
+              {history.tech && <b>Tech/Skills </b>}
+              <em> {history.tech} </em>
             </p>
           </div>
         )}
